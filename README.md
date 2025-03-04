@@ -19,7 +19,7 @@ chmod +x coun
 ./coun <directory_path>
 ```
 
-## How to Run Test
+## How to Test
 
 1. Install `rspec` with bundle install
 2. run the test with command:
