@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require_relative 'file_content_counter'
+
+# Main execution
+if ARGV.length != 1
+    puts "Usage: ruby coun <directory_path>"
+    exit 1
+end
+
+directory_path = ARGV[0]
+FileContentCounter.execute(directory_path)
