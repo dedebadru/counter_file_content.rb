@@ -15,7 +15,7 @@ ruby coun <directory_path>
 ```
    or
 ```bash
-chmod +x run
+chmod +x coun
 ./coun <directory_path>
 ```
 
@@ -26,3 +26,6 @@ chmod +x run
 ```bash
 rspec spec/file_content_counter_spec.rb
 ```
+
+## Example
+<img width="534" alt="Example" src="https://github.com/user-attachments/assets/422f4671-a8b5-48a2-beaa-74e1ad2b6794" />
